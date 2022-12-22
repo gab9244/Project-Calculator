@@ -1,0 +1,56 @@
+
+#container {
+    display: flex;
+    justify-content: center;
+   
+  
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 10px;
+   
+}
+#screen {
+    width: 412px;
+    height: 175px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+#clear {
+    width: 200px;
+    
+}
+ #clear:hover    {
+    background-color: rgb(67, 231, 67);
+}
+#delete {
+    width: 200px;
+    
+}
+#delete:hover  {
+    background: red;
+}
+button {
+    
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+.firstbuttons{ 
+    display: flex;
+    gap: 15px;
+}
+
+.lowerbuttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+}
+.lowerColor:hover {
+    background-color: gray;
+}
