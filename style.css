@@ -14,11 +14,17 @@
     gap: 10px;
    
 }
-#screen {
+#display {
+    display: flex;
+    flex-direction: column;
     width: 412px;
     height: 175px;
     border: 1px solid black;
     font-size: 30px;
+}
+#previous {
+    font-size: 25px;
+    color: grey;
 }
 #clear {
     width: 200px;
@@ -53,4 +59,19 @@ button {
 }
 .lowerColor:hover {
     background-color: gray;
+}
+
+#foot{
+    display: flex;
+    justify-content: center;
+    background: grey;
+    margin-top: 50px;
+    font-size: 18px;
+}
+#Creditos {
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
